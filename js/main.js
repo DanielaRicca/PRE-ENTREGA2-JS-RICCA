@@ -123,7 +123,7 @@ let valorDelVuelo = CalcularValorVuelo (destino);
 
 console.log (valorDelVuelo);
 
-console.log ("Valor del vuelo a :" + destino + "\n" + CantidadPasajeros +" "+ "Pasajeros" +" "+ "$" + PrecioFinal(valorDelVuelo, CantidadPasajeros) + " " + "IVA incluido");
+console.log ("Valor del vuelo a :" + destino + "\n" + CantidadPasajeros +" "+ "Pasajeros" +" "+ "$" + PrecioFinal(valorDelVuelo, CantidadPasajeros, valorIva) + " " + "IVA incluido");
  
 let salida = "Valor del vuelo a :" + destino + "\n" + CantidadPasajeros +" "+ "Pasajeros" +" "+ "$" + PrecioFinal(valorDelVuelo, CantidadPasajeros, valorIva) + " " + "IVA incluido";
 alert (salida);

@@ -1,5 +1,5 @@
 const vuelo = new VUELO();
-switch (parseInt(prompt("Ingrese 1 para modificar un destino. \nIngrese 2 para cargar un vuelo"))) {
+switch (parseInt(prompt("Ingrese 1 para modificar un destino. \n \nIngrese 2 para cargar un vuelo"))) {
     case 1:
         //Cambio de precio
         let dest = new DESTINO();
